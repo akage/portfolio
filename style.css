@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "F25_Bank_Printer";
+  src: url(F25_Bank_Printer.ttf) format("truetype");
+}
+body{
+	font-family: "F25_Bank_printer";
+	}
+.nav-menu ul{
+	list-style-type: none;
+}
+header .container{
+		
+}
+.active{
+	display: block !important;
+}
+#margem{
+	height: 100px;
+}
+
+#inicio, #sobre, #experiencias, #trabalhos, #contato{
+	height: 600px;
+}
+div h1{
+	text-align: right;
+	margin-top: -20px;
+	font-size: 34px;
+}
+li a {
+	font-size: 22px;
+	margin: 10px;
+}
+a {
+	color: #000;
+}
+a:hover{
+	color: #fff !important;
+	background-color: #000;
+	text-decoration: none;
+}
+#inicio section {
+	text-align: right;
+	margin: 150px 100px 0 0;
+	    font-size: 38px;
+}
+#sobre img{
+	width: 200px;
+	height: 200px;
+}
